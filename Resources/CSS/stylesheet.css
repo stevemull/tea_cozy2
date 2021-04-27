@@ -1,0 +1,113 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    height: 69px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+}
+
+.header img {
+    float: left;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.navbar {
+    max-width: 500px;
+    display: flex;
+    float: right;
+}
+
+.nav-item {
+    color: seashell;
+    margin: 18px 10px 0px 10px;
+}
+
+@media only screen and (max-width: 550px) {
+    .nav-item {
+        font-size: 18px;
+    }
+}
+
+.mission-container {
+    min-height: 700px;
+    min-width: 300px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-overlay {
+    background-color: black;
+    width: 100%;    
+}
+
+.missiontext {
+    margin: 10px 10px 15px 10px;
+}
+
+.featured-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-container img {
+    width: 300px;
+    height: 200px;
+    margin: 0px 15px -10px 15px;
+}
+
+
+.location-container {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    width: 100%;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.location-boxes {
+    width: 100%;
+    min-height: 400px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.location-box {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    margin: 0px 10px 10px 10px;
+}
+
+.location-text {
+    opacity: 0.9;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
